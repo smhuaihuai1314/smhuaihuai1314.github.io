@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://smhuaihuai1314.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Aug 2019 21:51:20 +0800</lastBuildDate>
+    
+	<atom:link href="https://smhuaihuai1314.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://smhuaihuai1314.github.io/post/blog/</link>
+      <pubDate>Tue, 20 Aug 2019 21:51:20 +0800</pubDate>
+      
+      <guid>https://smhuaihuai1314.github.io/post/blog/</guid>
+      <description>进制转换 二进制转十进制 乘2求幂法
+2^0 1 2^1 2 2^2 4 2^3 8 2^4 16 2 `1^5 32 2^6 64 2^7 128 2^8 256 2^9 512 2^10 1024 2^11 2048 2^12 4096
+八进制
+满八进一 7+1=10 17+1=20 77+1=100
+八进制转为二进制 八进制的每一位数字转为二进制的数字，如果转成的二进制不足三位前面补0
+二进制转八进制 从个位开始，每3位分一组，分别对应转为八进制数字，最后一个分组如果不满前面补上0
+十六进制 0 1 2 3 4 5 6 7 8 9 A B C D E F
+十六进制转二进制 十六进制的每一位数字转为二进制的数字，如果转成的二进制不足四位前面补0（首位为0可以舍）
+数字表示字符 ASCI 是数值和英文小写字符的映射图 ASCII 兼容了之前ASCI中的26个字母，再次 拓展了大写英文字母/空格/数值/特殊符号 a&amp;lt;&amp;mdash;-&amp;gt;97 A&amp;lt;&amp;mdash;-&amp;gt;65 我&amp;lt;&amp;mdash;-&amp;gt;-87 -65 对于中文，ASCII使用两个负数表示一个汉字</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://smhuaihuai1314.github.io/post/first/</link>
+      <pubDate>Tue, 20 Aug 2019 11:35:31 +0800</pubDate>
+      
+      <guid>https://smhuaihuai1314.github.io/post/first/</guid>
+      <description>&lt;h1 id=&#34;数据库简介&#34;&gt;数据库简介&lt;/h1&gt;
+
+&lt;h2 id=&#34;mysql&#34;&gt;mysql&lt;/h2&gt;
+
+&lt;h3 id=&#34;msi&#34;&gt;msi&lt;/h3&gt;
+
+&lt;p&gt;window安*装版本  安装后点就是删除&lt;/p&gt;
+
+&lt;h3 id=&#34;mysql安装&#34;&gt;mysql安装&lt;/h3&gt;
+
+&lt;h3 id=&#34;mysql的数据类型&#34;&gt;mysql的数据类型&lt;/h3&gt;
+
+&lt;p&gt;byte  short  int  long   整数
+  double  float            小数
+  tinyint                  微整型&lt;br /&gt;
+​   只有两个取值  0 代表false  1 代表true&lt;/p&gt;
+
+&lt;p&gt;char(number)            多个字符的字符串,number是字符串的长度
+    如果字符个数不足number,使用空格补全&lt;/p&gt;
+
+&lt;p&gt;varchar(number)          多个字符的字符串,number是字符串的长度
+​        如果字符个数不足number,自动把多余的空间释放掉,推荐使用&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
